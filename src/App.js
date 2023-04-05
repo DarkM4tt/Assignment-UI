@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import About from "./components/About";
+import Dashboard from "./components/Dashboard";
+import GoPro from "./components/GoPro";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex h-[100vh]">
+      <div className="flex flex-col justify-center items-center bg-black w-[20vw]">
+        <About />
+        <Dashboard />
+        <GoPro />
+      </div>
+      <div className="flex bg-green-500 w-[35vw]">Middle</div>
+      <div className="flex bg-yellow-500 w-[45vw]">Right</div>
     </div>
   );
 }
