@@ -9,7 +9,7 @@ import { VscGraph } from "react-icons/vsc";
 
 const Dashboard = () => {
   return (
-    <div className="flex flex-col justify-center pl-12 w-[15rem] h-[17rem] mt-4 rounded-2xl bg-gray-600">
+    <div className="flex flex-col justify-center pl-12 w-[15rem] h-[17rem] mt-4 rounded-2xl bg-gray-700">
       <div className="text-white space-x-4">
         <RiFolderOpenLine
           className="w-8 h-8 p-2 rounded-md inline bg-black"
