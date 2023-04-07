@@ -1,8 +1,22 @@
 import React from "react";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Community = () => {
   return (
-    <div className="flex justify-center items-center h-[8rem] mt-4 rounded-2xl w-[35rem] px-[2rem] py-[2rem] bg-gray-700 space-x-5"></div>
+    <div className="flex justify-center items-center h-[8rem] mt-4 rounded-2xl w-[35rem] bg-gray-700 gap-12">
+      <div className="w-20 h-20">
+        <img src="" alt="" />
+      </div>
+
+      <div className="text-white">
+        <div className="flex gap-52">
+          <h1>Dear Client</h1>
+          <RiArrowDropDownLine className="text-3xl" />
+        </div>
+        <p>Join our online community. It helps</p>
+        <p>In managing your projects</p>
+      </div>
+    </div>
   );
 };
 

@@ -12,17 +12,19 @@ import TransactionDetail from "./components/TransactionDetail";
 function App() {
   return (
     <div className="App flex h-[100vh]">
-      <div className="flex flex-col justify-center items-center w-[20vw]">
+      <div className="flex flex-col justify-center w-[16vw]">
         <About />
         <Dashboard />
         <GoPro />
       </div>
-      <div className="flex flex-col justify-center items-center w-[35vw]">
+
+      <div className="flex flex-col items-center justify-center w-[28vw]">
         <Revenue />
         <Tourism />
         <Slots />
       </div>
-      <div className="flex flex-col justify-center items-center w-[45vw]">
+
+      <div className="flex flex-col justify-center w-[37vw]">
         <Community />
         <TransactionDetail />
         <ProjectDetail />

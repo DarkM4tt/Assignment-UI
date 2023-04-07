@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: black;
 }
 
 progress::-webkit-progress-value {
   background-color: #3730a3;
-  border-radius: 0.2rem;
 }
 
 ::-webkit-progress-bar {
   background-color: white;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
 }
