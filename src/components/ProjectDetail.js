@@ -28,8 +28,8 @@ const ProjectDetail = () => {
           <BsThreeDotsVertical />
         </div>
 
-        <div className="flex justify-center items-center bg-red-500 mt-5 w-20 h-20 rounded-full">
-          <p className="font-bold">75%</p>
+        <div class="relative flex justify-center items-center bg-red-500 mt-5 w-20 h-20 rounded-full">
+          <p class="font-bold">75%</p>
         </div>
 
         <p className="mt-5 text-xs">3 Remaining Projects</p>

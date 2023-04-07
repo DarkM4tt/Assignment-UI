@@ -5,7 +5,10 @@ const Community = () => {
   return (
     <div className="flex justify-center items-center h-[8rem] mt-4 rounded-2xl w-[35rem] bg-gray-700 gap-12">
       <div className="w-20 h-20">
-        <img src="" alt="" />
+        <img
+          src="https://png.pngtree.com/png-clipart/20201208/ourmid/pngtree-red-leaf-decoration-material-png-image_2520393.jpg"
+          alt=""
+        />
       </div>
 
       <div className="text-white">
